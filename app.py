@@ -10,7 +10,7 @@ students = [
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'ok'
 
 
 @app.route("/students")
@@ -18,7 +18,6 @@ def list_students():
     return {
         "students": students
     }
-
 
 if __name__ == '__main__':
     app.run()
